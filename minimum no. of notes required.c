@@ -7,7 +7,7 @@ int main(){
     printf("enter the amount: ");
     scanf("%d", &amount);
     
-    for(i=1;i<9;i++){
+    for(i=0;i<9;i++){
         count=amount/notes[i];
         
         if(count>0)
